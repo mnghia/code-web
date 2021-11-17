@@ -1,0 +1,158 @@
+div.hinhanh{
+    padding-left: 440px;
+    width: 148px;
+}
+.Menu
+{   
+    background-color: rgb(34, 179, 204);
+}
+.Menu .menutren{
+    padding-left: 380px;
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    
+}
+.Menu .menutren .menungang li{
+    display: inline-block;
+    font-size: 15px;
+    border-right: solid 1px rgb(182, 180, 180);
+    padding-right: 10px;
+    font-weight: 500;
+    padding-left: 10px;
+    
+}
+.Menu .menutren .menungang li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div.khoitrai .tren .anh{
+    width:78%;
+    padding-left: 430px;
+    padding-top: 10px;  
+    
+}
+.Menu .menutren .menungang li a:hover
+{
+    background-color: rgb(26, 146, 167);
+}
+div.khoitrai .tren{
+    width: 800px;
+}
+div.khoitrai .tren h1
+{   
+    margin: 0;
+    color:black;
+    font-family: Segoe UI;
+    padding-left: 430px;
+    font-weight: 400;
+    width: 650px;
+}
+div.khoitrai .tren a{
+    text-decoration: none;
+}
+div.khoitrai .tren a.nguon{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(76, 145, 7);
+    padding-left: 430px;
+    padding-right: 6px;
+    
+}
+div.tren a.lienquan{
+    color: gray;
+    font-size: 15px;
+} 
+div.tren span.gio
+{
+    padding-right: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 15px;
+}
+div.khoitrai .tren h1:hover
+{   
+   color: rgb(39, 177, 196);
+}
+div.khoitrai .duoi{
+    width:450px;
+    padding-top: 10px;
+    display: flex;
+    padding-left: 430px;
+}
+div.khoitrai .duoi .cot .hinh{
+   width: 90%;
+   padding-top: 5px;
+   justify-content: space-between;
+   border-radius: 10px;
+   
+}
+div.khoitrai .duoi a
+{
+    text-decoration: none;
+}
+div.khoitrai .duoi h3{
+    margin: auto;
+    display: flex;
+    color: black;
+    width: 210px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.khoitrai .duoi h3:hover{
+    color: rgb(39, 177, 196);
+}
+div.khoitrai .duoi span.gio{
+    padding-left: 10px;
+    color: grey;
+    font-size: 15px;
+}
+hr{
+    width: 620px;
+    margin-left: 430px;
+}
+div.khoitin{
+    display: flex;
+    width: 970px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+div.khoitin .trai{
+    margin-top: 20px;
+}
+div.khoitin .phai{
+    font-family: Segoe UI;
+    color: black;
+    width: 30%;
+    padding-left: 15px;
+}
+div.khoitin .phai a{
+    text-decoration: none;
+}
+div.khoitin .phai .lienquan{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+div.khoitin .phai .gio{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+div.khoitin .phai .lienquan:hover{
+    color: rgb(39, 177, 196);
+}
+div.khoitin .trai .hinhanh1{
+    border-radius: 10px;
+    
+}
+
+

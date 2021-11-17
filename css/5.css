@@ -1,0 +1,23 @@
+.Menu{
+    width: 100%;
+    background-color: orange;
+    list-style: none;
+    text-decoration: none;
+
+}
+.Menu .Menu1
+{
+    padding-left: 600px;
+    margin-left: 10px;
+    display:flex;
+    text-align :center;
+}
+.Menu .Menu1 .Tren li {
+    
+    color: #f1f1f1;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px solid white;
+}

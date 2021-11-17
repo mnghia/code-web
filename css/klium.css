@@ -1,0 +1,321 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: #f4f6f8;
+}
+.top
+{
+    padding-left: 150px;
+    padding-top: 30px;
+    width: 1800px;
+}
+.header{
+    display: flex;
+    list-style: none;
+} 
+.header .menu
+{
+    margin-left: 740px;
+    margin-top: 0;
+}
+.menu > ul{
+    
+    display: flex;
+    list-style: none;
+    margin: auto;
+    font-family: Segoe UI;
+   
+}
+.menu > ul li {
+    line-height: 30px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+}
+.menuchinh{
+    position: relative;
+}
+.menuchinh .mucchinh span{
+     font-family: Segoe UI;
+     font-size: 17px;
+}
+.menuchinh a.active{
+    border-bottom: 1px solid black;
+}
+.menuchinh > .mucchinh span:active{
+    border-bottom: 1px solid black;
+}
+.menuchinh > .mucchinh span:hover
+{
+    border-bottom: 1px solid black
+}
+.menuchinh .mucphu{
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 40px; left:0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s;
+    border: 1px solid black;
+}
+.menuchinh:hover >.mucphu{
+    opacity: 1;
+    visibility: visible;
+}
+.menuchinh > .mucphu li :hover
+{
+    border-bottom: 1px solid black;
+}
+.iconkinhlup{
+    border: white;
+    width: 22px;
+    height: 22px;
+}
+.top2
+{
+    padding-left: 150px;
+    padding-top: 30px;
+    width: 1600px;
+}
+.header1{
+    width: 100%;
+    padding-top: 20px;
+    font-family: Segoe UI;
+    display: flex;
+}
+.header1 .headerphu
+{
+    width: 50%;
+}
+.header1 h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+.header1 p{
+    padding-top: 10px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: gray;
+}
+.header1 .menu2
+{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 1150px;
+}
+.menu2 .menuchinh1 span{
+    font-size: 11px;
+    text-decoration: none;
+    padding-left: 45px;
+}
+.menu2 > ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 10px;
+}
+.menu2 > ul li {
+    line-height: 30px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.menu2 ul li a 
+{
+    text-decoration: none;
+    color: black;
+}
+.menuchinh1{
+    position: relative;
+}
+.menuchinh1 .mucphu1{
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    top: 40px; left:0;
+    visibility: hidden;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+.menuchinh1:hover >.mucphu1{
+    visibility: visible;
+    opacity: 1;
+}
+.menuchinh1 > .mucphu1 li :hover
+{
+    border-bottom: 1px solid black;
+}
+.mucchinh .fa-angle-down{
+    padding-left: 8px;
+}
+.mucchinh1 .fa-angle-down{
+    padding-left: 10px;
+}
+.top3{
+    padding-left: 150px;
+    padding-top: 30px;
+    
+    display: flex;
+}
+.bo{
+    position: relative;
+}
+.top3 .bo{
+    position: relative;
+    display: inline-block;
+}
+.top3 .bo .lop2{
+    position: absolute;
+    top:0; left: 0;
+    z-index: 99;
+    transition: 10s;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;       
+}
+.top3 .bo:hover .lop2{
+    display: inline;
+    opacity: 1;
+}
+.thongtin{
+    padding-top: 25px;
+    font-family: Segoe UI;
+    font-size: 20px;
+    text-decoration: none;
+}
+.thongtin a{
+    font-family: Segoe UI;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.bo1{
+    position: relative;
+    margin-left: 30px;
+}
+.top3 .bo1{
+    position: relative;
+    display: inline-block;
+}
+.top3 .bo1 .lop2{
+    position: absolute;
+    top:0; left: 0;
+    z-index: 99;
+    transition: 10s;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;      
+}
+.top3 .bo1:hover .lop2{
+    display: inline;
+    opacity: 1;
+}
+.bo2{
+    position: relative;
+    margin-left: 30px;
+}
+.top3 .bo2{
+    position: relative;
+    display: inline-block;
+}
+.top3 .bo2 .lop2{
+    position: absolute;
+    top:0; left: 0;
+    z-index: 99;
+    transition: 10s;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;        
+}
+.top3 .bo2:hover .lop2{
+    display: inline;
+    opacity: 1;
+}
+p{
+    font-size: 12px;
+    color: black;
+    padding-top: 10px;
+    font-family: Segoe UI;
+}
+.thongtin{
+    display: flex;
+}
+.thongtin a{
+    width: 200px;
+}
+.thongtin span{
+    padding-left: 260px;
+}
+button{
+    margin-left: 860px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+hr{margin-top: 30px;}
+.duoi{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 50px;
+    width: 1800px;
+}
+.duoi .menu li{
+    padding-top: 20px;
+    list-style: none;
+}
+.duoi .menu li a{
+    text-decoration:none ;
+    font-family: Segoe UI;
+    color:black;
+}
+.cot2{
+    padding-left: 250px;
+}
+.cot3{
+    padding-left: 250px;
+}
+.cot4{
+    padding-left: 500px;
+}
+pre{
+    font-family: Segoe UI;
+    font-size: 20px;
+}
+.tongicon{
+    display: flex;
+}
+.tongicon h1{
+    padding-left: 20px;
+}
+.tongicon h1 a{
+    color: black;
+}
+.tongicon h1 a .fa-snapchat-square:hover{
+    color: yellow;
+}
+.tongicon h1 a .fa-facebook-square:hover{
+    color: rgb(0, 153, 255);
+}
+.tongicon h1 a .fa-instagram:hover{
+    color: blueviolet;
+}
+

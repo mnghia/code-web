@@ -1,0 +1,28 @@
+div.khoitin{
+    display: flex;
+    width: 750px;
+    margin: auto;
+
+}
+div.khoitin .trai
+{
+    margin-top: 25px;
+    padding-right:10px;
+    width: 250px;
+}
+div.khoitin .phai
+{
+    width: 540px;
+}
+p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+hr{
+    width: 750px;
+    
+}

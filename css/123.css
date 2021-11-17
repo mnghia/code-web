@@ -1,0 +1,17 @@
+.top3 .bo{
+    position: relative;
+    display: inline-block;
+}
+.top3 .bo .lop2{
+    position: absolute;
+    top:0; left: 0;
+    z-index: 99;
+    transition: 10s;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;        
+}
+.top3 .bo:hover .lop2{
+    display: inline;
+    opacity: 1;
+}

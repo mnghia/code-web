@@ -1,0 +1,207 @@
+b{
+    font-family: Segoe UI;
+    font-size: 20px;
+}
+hr{
+    width: 1590px;
+    margin-left: 40px;
+}
+.dongdau{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.dongdau .nguon
+{
+    padding-left: 900px;
+    padding-top: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.dongdau .nguon:hover{
+    color:rgb(18, 198, 211);
+    text-decoration: underline;
+
+}
+.Menu{
+    width: 100%;
+}
+.Menu .menutren .menungang{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.Menu .menutren .menungang li{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 30px;
+    font-family: Segoe UI;
+    padding-bottom: 20px;
+}
+.Menu .menutren .menungang li a{
+    text-decoration: none;
+}
+.Menu .menutren .menungang li a.active{
+    border-bottom: 3px solid blue;
+    padding-bottom: 25px;
+}
+.Menu .menutren .menungang li a:hover{
+    color: rgb(18, 198, 211);
+    text-decoration: underline;
+    border-bottom: 3px solid gray;
+    padding-bottom: 25px;
+}
+.saucot{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.saucot .cotmot .cot1 li{
+    list-style: none;
+    padding-top: 12px;
+}
+.saucot .cotmot .cot1 a{
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.saucot .cotmot .cot1 p{
+   padding-left: 7px;
+   margin: 0 auto;
+   vertical-align:middle;
+   display: inline-block;
+   font-family: Segoe UI;
+}
+.saucot .cotmot .cot1 p:hover{
+    color:rgb(18, 198, 211) ;
+    text-decoration: underline;
+}
+.saucot .cotmot .cot1 img{
+    display: inline-block;
+    vertical-align:middle;
+}
+.saucot .cothai .cot2 li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 130px;
+}
+.saucot .cothai .cot2 a{
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.saucot .cothai .cot2 p{
+   padding-left: 7px;
+   margin: 0 auto;
+   vertical-align:middle;
+   display: inline-block;
+   font-family: Segoe UI;
+}
+.saucot .cothai .cot2 img{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.saucot .cothai .cot2 p:hover{
+    color:rgb(18, 198, 211) ;
+    text-decoration: underline;
+}
+.saucot .cotba .cot3 li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 75px;
+}
+.saucot .cotba .cot3 a{
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.saucot .cotba .cot3 p{
+   padding-left: 7px;
+   margin: 0 auto;
+   vertical-align:middle;
+   display: inline-block;
+   font-family: Segoe UI;
+}
+.saucot .cotba .cot3 img{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.saucot .cotba .cot3 p:hover{
+    color:rgb(18, 198, 211) ;
+    text-decoration: underline;
+}
+.saucot .cotbon .cot4 li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 75px;
+}
+.saucot .cotbon .cot4 a{
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.saucot .cotbon .cot4 p{
+   padding-left: 7px;
+   margin: 0 auto;
+   vertical-align:middle;
+   display: inline-block;
+   font-family: Segoe UI;
+}
+.saucot .cotbon .cot4 img{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.saucot .cotbon .cot4 p:hover{
+    color:rgb(18, 198, 211) ;
+    text-decoration: underline;
+}
+.saucot .cotnam .cot5 li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 85px;
+}
+.saucot .cotnam .cot5 a{
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.saucot .cotnam .cot5 p{
+   padding-left: 7px;
+   margin: 0 auto;
+   vertical-align:middle;
+   display: inline-block;
+   font-family: Segoe UI;
+}
+.saucot .cotnam .cot5 img{
+    display: inline-block;
+    vertical-align:middle;
+}
+.saucot .cotnam .cot5 p:hover{
+    color:rgb(18, 198, 211) ;
+    text-decoration: underline;
+}
+.saucot .cotsau .cot6 li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 100px;
+}
+.saucot .cotsau .cot6 a{
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.saucot .cotsau .cot6 p{
+   padding-left: 7px;
+   margin: 0 auto;
+   vertical-align:middle;
+   display: inline-block;
+   font-family: Segoe UI;
+}
+.saucot .cotsau .cot6 img{
+    display: inline-block;
+    vertical-align:middle;
+}
+.saucot .cotsau .cot6 p:hover{
+    color:rgb(18, 198, 211) ;
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    margin-top: 90px;
+}
+hr{
+    margin-left: 400px;
+    width: 500px;
+}
+pre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+}
+ul{
+    font-size: 15px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 380px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    width: 560px;
+}
+a{
+    color: red;
+}
+

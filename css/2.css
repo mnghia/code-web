@@ -1,0 +1,14 @@
+div.hinh {
+    display: flex;
+    width: 560px;
+}
+div.hinh .h1 {
+    padding-right: 10px;
+    width: 250px ; 
+}
+div.hinh .h2 {
+    width: 250px ;    
+}
+div.hinh .h3{
+    width: 250px;
+}

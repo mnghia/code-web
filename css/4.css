@@ -1,0 +1,53 @@
+div.khoitrai .tren{
+    width: 625px;
+}
+img{
+    width: 100%;
+}
+div.khoitrai .tren a{
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-size: 25px;
+}
+div.khoitrai .tren a:hover{
+    color: greenyellow;
+}
+div.khoitrai .tren h3{
+    font-size: 25px;
+    /* color: black; */
+    margin: 0;
+}
+div.tren a.nguon,a.lienquan{
+    padding-right: 10px;
+}
+div.tren a.gio{
+    padding-right: 10px;
+    color: silver;
+}
+div.khoitrai .duoi {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.khoitrai .duoi ._3cot{
+    width: 32%;
+}
+div.khoitrai .duoi ._3cot a{
+    text-decoration: none;
+    color: greenyellow;
+    }
+
+div.khoitrai .duoi ._3cot h3{
+    font-size: 17px;
+    margin: 0;
+    font-family: Segoe UI;
+}
+div.khoitrai .duoi ._3cot a:hover{
+    color: khaki;
+}
+img{
+    width: 80%;
+}
